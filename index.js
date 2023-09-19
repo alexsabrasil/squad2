@@ -1,16 +1,17 @@
-/*Imagine que você está desenvolvendo um sistema para uma loja de eletrônicos.
-Você precisa criar um programa simples em JavaScript para armazenar informações
-sobre os clientes da loja. Cada cliente tem um nome (string), uma idade (number) 
-e um status de membro (bool).*/
+const prompt = require("prompt-sync")()
 
-const nomeCliente = 'Gabriel';
-const idadeCliente = 33;
+const cliente = 0;
+console.log("cliente:", cliente+1)
+const nomeCliente = prompt("Digite o nome do cliente aqui: ");
+console.log("nome:",nomeCliente)
+const idadeCliente = prompt("Digite a idade do cliente aqui: ");
+console.log("idade:",idadeCliente)
 const eMembro = true;
+console.log("status: " + eMembro);
 
 
 
-
- ~~~javascript
+/* ~~~javascript
 Cliente 1: 
 nome: "Alberto"
 idade: 15
@@ -28,4 +29,4 @@ e exibir as informações desse novo funcionário no console.
 
 - Assim que isso for feito, voce deverá criar uma branch e enviar as atualizacoes para a sua respectiva branch. 
 
-Feito isso, voce deverá criar um Pull request endereçado a `main/master` do projeto.
+Feito isso, voce deverá criar um Pull request endereçado a `main/master` do projeto.*/
