@@ -11,7 +11,7 @@ console.log("status: " + eMembro);
 
 
 
-/* ~~~javascriptt
+/* ~~~javascripttt
 Cliente 1: 
 nome: "Alberto"
 idade: 15
