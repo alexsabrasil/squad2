@@ -1,4 +1,6 @@
 const prompt = require("prompt-sync")()
+const readline = require('readline')
+
 
 const cliente = 0;
 console.log("cliente:", cliente+1)
